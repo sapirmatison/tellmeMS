@@ -1,0 +1,233 @@
+﻿#container {
+	background-color: #F6D527;
+}
+
+/*כפתור כתום*/
+#orangeClick {
+  left: 46vw;
+    top: 20vw;
+    width: 15vw;
+    height: 10vw;
+    background-color: red;
+    opacity: 0;
+    position: absolute;
+    z-index: 2;
+}
+
+/*כפתור ורוד*/
+
+#pinkClick {
+    left: 41vw;
+    top: 5vw;
+    width: 10vw;
+    height: 9vw;
+    background-color: red;
+    opacity: 0;
+    position: absolute;
+    z-index: 2;
+}
+
+/*כפתור סגול*/
+
+#purpelClick {
+	left: 25vw;
+    top: 3vw;
+    width: 12vw;
+    height: 8vw;
+    background-color: red;
+    opacity: 0;
+    position: absolute;
+    z-index: 2;
+}
+
+/*כפתור כחול*/
+#blueClick {
+	left: 12vw;
+    top: 13vw;
+    width: 12vw;
+    height: 9vw;
+    background-color: red;
+    opacity: 0;
+    position: absolute;
+    z-index: 2;
+}
+
+/*כפתור ירוק*/
+#greenClick {
+	left: 11vw;
+    top: 5vw;
+    width: 13vw;
+    height: 12vw;
+    background-color: red;
+    opacity: 0;
+    position: absolute;
+    z-index: 2;
+}
+
+/*צורות הכפתורים*/
+.item {
+	width: 28%;
+	height: 40%;
+	margin: 0;
+	color: #fff5ec;
+	text-decoration: none;
+	padding: 10px;
+	display: inline-block;
+	position: absolute;
+	-webkit-transform-origin: calc(100% + 130px) 50%;
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	max-height: 330px;
+	max-width: 230px;
+}
+
+/*כל האינפוגרפיקה כולל תמונת ההורים*/
+.items {
+	position: relative;
+	height: 79vh;
+	width: 100vw;
+	background-image: url(../img/PARENTS.png);
+	background-repeat: no-repeat;
+    background-position: 63% 30vh;
+	background-size: 29%;
+	max-width: 865px;
+	max-height: 750px;
+	margin: 0 auto;
+}
+
+/*עיצוב פופ אפ*/
+.popupDesign {
+	font-family: Rubik;
+	background-color: white;
+	border: none;
+	border: 1px solid none;
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+	text-align: justify;
+	direction: rtl;
+	line-height: 25px;
+}
+.popupDesign span:nth-child(2){
+		margin: 39px;
+}
+
+.close {
+	width: 20px;
+	height: 20px;
+	background-image: url(../img/close.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+/*עיצוב פסקת פתיחה*/
+p#myInfo{
+	 margin-top: 0;
+    margin-bottom: 1rem;
+    text-align: justify;
+    direction: rtl;
+    font-size: 11pt;
+    color: #4F241C;
+    text-shadow: none;
+	padding: 5px;
+	font-family:Rubik;
+ }
+
+/*לינק לאתר הפקולטה*/
+#TLM{
+	font-family:Rubik;
+	color:blue;
+	text-decoration:solid;
+}
+#TLM:hover{
+	font-weight:bold;
+}
+#TLM:visited {
+	color:purple;
+}
+#odotClick{
+color:white;
+}
+/*הגדרות המבטלות את העיצוב הדיפולטיבי של בוסטראפ וג'ייקווארימובייל*/
+.ui-bar-a, .ui-page-theme-a .ui-bar-inherit, html .ui-bar-a .ui-bar-inherit, html .ui-body-a .ui-bar-inherit, html body .ui-group-theme-a .ui-bar-inherit {
+	background-color: transparent;
+	color: white;
+	border:none;
+}
+.uai-heder, .ui-footer {
+	border-style: none;
+}
+.ui-header .ui-title, .ui-footer .ui-title {
+		font-family: 'Rubik', sans-serif;
+			text-align:center;
+	font-size:18pt;
+}
+.ui-page-theme-a .ui-btn, html .ui-bar-a .ui-btn, html .ui-body-a .ui-btn, html body .ui-group-theme-a .ui-btn, html head+body .ui-btn.ui-btn-a, .ui-page-theme-a .ui-btn:visited, html .ui-bar-a .ui-btn:visited, html .ui-body-a .ui-btn:visited, html body .ui-group-theme-a .ui-btn:visited, html head+body .ui-btn.ui-btn-a:visited{
+background-color:transparent;
+border:none;
+text-shadow:none;
+}
+
+/*testing*/
+
+
+
+
+
+.purple-alignment{
+    margin-right: -1vw;
+    margin-bottom: 5vw;
+    width: auto;
+    height: 15vw;
+}
+
+.blue-alignment{
+    margin-right: -8vw;
+    margin-bottom: -8vw;
+    margin-left: 6vw;
+    width: auto;
+    height: 18vw;
+}
+
+.pink-alignment{
+    margin-right: -9vw;
+    width: auto;
+    height: 18vw;
+}
+
+.orange-alignement{
+    margin-bottom: -25.5vw;
+    width: auto;
+    height: 18vw;
+}
+
+.green-alignment{
+    margin-top: 4vw;
+    margin-left: 6vw;
+    width: auto;
+    height: 18vw;
+}
+
+.parents-alignment {
+    margin-left: 23vw;
+    margin-top: -20vw;
+    width: auto;
+    height: 22vw;
+}
+
+
+
+
+@media (min-width: 360px) and (max-width:580px) { 
+	
+.parents-alignment {
+	margin-left: -2vw;
+    margin-top: -4vw;
+}
+
+}
+
+img{
+
+}
